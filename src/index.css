@@ -1,0 +1,47 @@
+/* index.css rewritten with Tailwind-first styles */
+@import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+
+html, body, #root {
+  @apply w-full h-full min-h-screen m-0 p-0 text-white bg-black;
+}
+
+
+  body {
+    @apply font-sans antialiased;
+  }
+
+  h1 {
+    @apply text-3xl font-bold;
+  }
+
+  a {
+    @apply font-medium text-purple-400 no-underline transition-colors;
+  }
+  a:hover {
+    @apply text-purple-300;
+  }
+
+  button {
+    @apply rounded-lg border border-transparent px-4 py-2 font-medium bg-purple-600 hover:bg-purple-700 transition-colors;
+  }
+}
+
+/* Keep light mode variant */
+@media (prefers-color-scheme: light) {
+  :root {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    color: #213547;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
