@@ -14,8 +14,8 @@ function App() {
         <Hero />
         <Portfolio />
         <Process />
-        <Testimonials />
         <Pricing />
+        <Testimonials />
         <Footer />
     </div>
   );

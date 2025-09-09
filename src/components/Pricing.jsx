@@ -40,7 +40,7 @@ export default function Pricing() {
     },
     {
       name: "Beast",
-      price: "$499",
+      price: "$280",
       desc: "20 Thumbnails Designs",
       features: [
         "20 thumbnails",
@@ -52,7 +52,7 @@ export default function Pricing() {
       included: [0, 1, 2, 3, 4],
       button: {
         text: "Order Now",
-        message: "Hello, I would like to order the BEAST pack ($499) with 20 thumbnails.",
+        message: "Hello, I would like to order the BEAST pack ($280) with 20 thumbnails.",
       },
       highlight: false,
     },
