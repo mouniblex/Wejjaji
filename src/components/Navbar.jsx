@@ -36,7 +36,7 @@ export default function Navbar() {
     <nav className="flex justify-between items-center px-6 md:px-10 py-4 border border-gray-700 bg-[#000000] text-white rounded-full mx-4 mt-4 relative bg-gradient-to-b from-[#090e2b] to-[#0d112f]">
       <div className="flex items-center gap-2">
         <h1 className="text-transparent font-bold bg-clip-text bg-gradient-to-r from-white via-blue-800 to-purple-500 bg-[length:200%_auto] animate-gradient">
-          WEJJAJI
+          WEJJAJ
         </h1>
       </div>
 
