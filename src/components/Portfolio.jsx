@@ -10,8 +10,8 @@ import yt3 from "../assets/youtube/IMG_1234.PNG";
 import yt4 from "../assets/youtube/KOREA.jpg";
 import yt5 from "../assets/youtube/Zouhair-Shoes.png";
 import yt6 from "../assets/youtube/IMG_1183.PNG";
-import yt7 from "../assets/youtube/Hamrita-fl-hind.png";
-import yt8 from "../assets/youtube/SLS Podcast 2-2.png";
+import yt7 from "../assets/youtube/HamritaT.png";
+import yt8 from "../assets/youtube/Podcast-Saad-.png";
 import yt9 from "../assets/youtube/Ja3bu9 Kawalis 1.png";
 
 // IG Reels images
@@ -26,9 +26,10 @@ import igR8 from "../assets/igReels/BinarCount.png";
 import igR9 from "../assets/igReels/SLS2.png";
 
 // (optional) IG Posts images
-// import post1 from "../assets/igPosts/";
-// import post2 from "../assets/igPosts/";
-// import post3 from "../assets/igPosts/";
+import post1 from "../assets/igPosts/post1.png";
+import post2 from "../assets/igPosts/post2.png";
+import post3 from "../assets/igPosts/post3.jpeg";
+import post4 from "../assets/igPosts/post4.jpeg";
 
 export default function Portfolio() {
   const [active, setActive] = useState("YouTube");
@@ -36,6 +37,7 @@ export default function Portfolio() {
 
   const youtubeImages = [yt1, yt2, yt3, yt4, yt5, yt6, yt7, yt8, yt9];
   const reelsImages = [igR1, igR2, igR3, igR4, igR5, igR6, igR7, igR8, igR9];
+  const postsImages = [post4, post3, post2, post1];
   // const postsImages = [];
 
   const categories = [
@@ -76,7 +78,7 @@ export default function Portfolio() {
   const content = {
     YouTube: renderImageGrid(youtubeImages, "16/9"),
     "IG Reels": renderImageGrid(reelsImages, "9/16"),
-    // "IG Posts": renderImageGrid(postsImages, "1/1"),
+    "IG Posts": renderImageGrid(postsImages, "1/1"),
   };
 
   return (
