@@ -17,7 +17,7 @@ import yt9 from "../assets/youtube/Ja3bu9 Kawalis 1.png";
 // IG Reels images
 import igR1 from "../assets/igReels/binarReel.png";
 import igR2 from "../assets/igReels/wijhati3.png";
-import igR3 from "../assets/igReels/SLS2.png";
+import igR3 from "../assets/igReels/SLS3.png";
 import igR4 from "../assets/igReels/Wijhati1.jpg";
 import igR5 from "../assets/igReels/WEGRUND.png";
 import igR6 from "../assets/igReels/wijhati2.png";
