@@ -4,7 +4,7 @@ export default function Pricing() {
   const plans = [
     {
       name: "Basic",
-      price: "$15",
+      price: "$20",
       desc: "1 Thumbnail Design",
       features: [
         "1 thumbnail",
@@ -16,13 +16,13 @@ export default function Pricing() {
       included: [0, 1, 2], // indexes of enabled features
       button: {
         text: "Order Now",
-        message: "Hello, I would like to order the BASIC pack ($15) with 1 thumbnail design.",
+        message: "Hello, I would like to order the BASIC pack ($20) with 1 thumbnail design.",
       },
       highlight: false,
     },
     {
       name: "Creator",
-      price: "$120",
+      price: "$180",
       desc: "10 Thumbnails Designs",
       features: [
         "10 thumbnails",
@@ -40,7 +40,7 @@ export default function Pricing() {
     },
     {
       name: "Beast",
-      price: "$280",
+      price: "$380",
       desc: "20 Thumbnails Designs",
       features: [
         "20 thumbnails",
@@ -52,7 +52,7 @@ export default function Pricing() {
       included: [0, 1, 2, 3, 4],
       button: {
         text: "Order Now",
-        message: "Hello, I would like to order the BEAST pack ($280) with 20 thumbnails.",
+        message: "Hello, I would like to order the BEAST pack ($380) with 20 thumbnails.",
       },
       highlight: false,
     },
